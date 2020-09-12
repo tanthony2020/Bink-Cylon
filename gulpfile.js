@@ -4,11 +4,11 @@ var Candyman = require('candyman');
 
 var candyman = new Candyman({
     targetDevices: [
-        { devicename: 'pi@tammispi', hostname: 'tammispi'}
+        { devicename: '', hostname: ''}
     ],
     projectName: 'blink-cylon',
-    user: 'pi',
-    password: 'Simba0405$',
+    user: '',
+    password: '',
     startFile: 'app.js'
 });
 gulp.task('deploy', function () {
